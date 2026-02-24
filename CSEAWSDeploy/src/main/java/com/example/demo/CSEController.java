@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CSEController{
+public class CSEController {
 	@GetMapping("/home")
 	public String rocks() {
-		return"Welcome to Jenkins AWS";
+		return "Welcome to Jenkins AWS";
 	}
 	
 	@GetMapping("/cse")
